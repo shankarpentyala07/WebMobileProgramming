@@ -1,0 +1,17 @@
+<search-box></search-box>
+<pagination></pagination>
+<div ng-if="checkDataLength(youtubeData)">
+    <div class="panel-body">
+        <div class="col-sm-12 col-lg-12 col-md-12" ng-repeat="data in youtubeData">
+            <div class="container">
+                <a class="thumbnail pull-left" target="_block" href="https://www.youtube.com/watch?v={{data.id.videoId}}">
+                    <img alt="{{data.snippet.title}}" src="{{data.snippet.thumbnails.default.url}}" width="100" height="100">
+                </a>
+                <div class="jumbotron">
+                    <a target="_block" href="https://www.youtube.com/watch?v={{data.id.videoId}}">{{data.snippet.title}}</a>
+                    <p>Channel Name: <a target="_block" href="https://www.youtube.com/channel/{{data.snippet.channelId}}"><span class="label label-warning">{{data.snippet.channelTitle}}</span></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

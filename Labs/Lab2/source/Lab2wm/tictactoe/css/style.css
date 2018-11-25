@@ -1,0 +1,32 @@
+h2,
+p {
+    margin: 0;
+}
+.gameinfo {
+    color: #333;
+}
+.board {
+    float: left;
+    color: blue;
+    font-weight: bold;
+}
+.square {
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid red;
+    color: black;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    padding: 20px;
+    text-align: center;
+    width: 30px;
+}
+.square.floatme {
+    clear: both;
+}
+.won {
+    color: green;
+}

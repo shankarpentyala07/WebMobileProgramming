@@ -1,0 +1,10 @@
+(function(){
+    app.directive("pagination",function(){
+        return{
+            templateUrl:"Html_pages/pagination.html",
+            link:function(scope,elem,attrs){
+                console.log(scope);
+            }
+        }
+    });
+})();
