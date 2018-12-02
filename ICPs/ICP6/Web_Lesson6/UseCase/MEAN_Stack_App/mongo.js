@@ -6,7 +6,7 @@ var express = require('express');
 var cors = require('cors');
 var app = express();
 
-var url='mongodb://kranthi:krithika@ds131139.mlab.com:31139/kranthi_db';
+var url='***********************************'; # Encrytpted for secure reasons
 var ObjectID = require('mongodb').ObjectID;
 
 app.use(cors());
