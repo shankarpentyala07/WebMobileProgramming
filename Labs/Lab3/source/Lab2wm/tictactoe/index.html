@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe in AngularJS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div ng-app="ticTacToeApp" class="container" ng-cloak="">
+    <div ng-controller="gameController as ctrl">
+        <h2>Tic Tac Toe</h2>
+        <div class="gameinfo">
+            <label>Board Size</label>
+            <input type="number" ng-model="newSize" />
+            <br/>
+            <label>How many in a row to win?</label>
+            <input type="number" ng-model="newNumberToWin" max="4"/>
+            <button ng-click="ctrl.newGame($event);" class="btn btn-primary">new game</button>
+            <p ng-show="errors">{{errors}}</p>
+        </div>
+        <hr/>
+        <div class="board">
+            <p ng-show="!winner && !draw">{{currentPlayer}}'s turn</p>
+            <p ng-show="winner" class="won">{{currentPlayer}} WON</p>
+            <p ng-show="draw">DRAW</p>
+            <div ng-repeat="positionInfo in board" class="square" ng-click="ctrl.playTurn($event, positionInfo)" ng-class="{'floatme': !($index % boardsize)}">
+                {{positionInfo.player}}
+            </div>
+        </div>
+    </div>
+</div>
+<script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js'></script>
+<script  src="js/index.js"></script>
+</body>
+
+</html>

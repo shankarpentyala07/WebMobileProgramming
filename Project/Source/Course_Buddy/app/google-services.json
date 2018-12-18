@@ -1,38 +1,35 @@
 {
   "project_info": {
-    "project_number": "541542603447",
-    "firebase_url": "https://coursebuddy-23246.firebaseio.com",
-    "project_id": "coursebuddy-23246",
-    "storage_bucket": "coursebuddy-23246.appspot.com"
+    "project_number": "22587604942",
+    "firebase_url": "https://coursebuddy-d2df9.firebaseio.com",
+    "project_id": "coursebuddy-d2df9",
+    "storage_bucket": "coursebuddy-d2df9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:541542603447:android:8e5263d18e6d3f5f",
+        "mobilesdk_app_id": "1:22587604942:android:8e5263d18e6d3f5f",
         "android_client_info": {
           "package_name": "com.example.shankarpentyala.course_buddy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "541542603447-s2br5qncd86g95tcjdfmvlkmk0or1ljp.apps.googleusercontent.com",
+          "client_id": "22587604942-gok19l7osfk1jq7ab7s3cb9u4bnv22sh.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.shankarpentyala.course_buddy",
-            "certificate_hash": "455a4478a1b64d30131032e51b7f36b73cccf39f"
+            "certificate_hash": "064a7cea6e32f0cf5941a2c72b6d6f208c6545c7"
           }
         },
         {
-          "client_id": "541542603447-1thql1t6oq8936m5rblvngiss3o0kp92.apps.googleusercontent.com",
+          "client_id": "22587604942-7qap7494mbjp2neegcpfjr90gqgcjl11.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAvS2fzCi7hdS86vMLiWOb7_pgMwcglQEc"
-        },
-        {
-          "current_key": "AIzaSyCF_XlGaKUv31gPMBscvvBzzbp3qQ6wmQE"
+          "current_key": "AIzaSyAZbShrGBuS31UIf3_ru39c4IxZ4_6IeuY"
         }
       ],
       "services": {
@@ -43,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "541542603447-1thql1t6oq8936m5rblvngiss3o0kp92.apps.googleusercontent.com",
+              "client_id": "22587604942-7qap7494mbjp2neegcpfjr90gqgcjl11.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

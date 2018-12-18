@@ -22,10 +22,10 @@ public class TalkTa extends AppCompatActivity {
         Intent it = getIntent();
         final String sso = it.getStringExtra("who");
         list = new ArrayList<>();
-        list.add("Marmik Patel\n mnpw3d");
-        list.add("Arunit Gupta\n agp52");
-        list.add("Ram gopal\n smgtb");
-        list.add("Sidrah Junaid\n sjhv6");
+        list.add("Girish Nagella\n gnch3");
+        list.add("Vijaya Yeruva\n agp52");
+        list.add("Bhargavi\n smgtb");
+        list.add("Sravanthi\n sjhv6");
         listView = (ListView)findViewById(R.id.l1);
         adapter = new ArrayAdapter(this,R.layout.listta,R.id.taname,list);
         listView.setAdapter(adapter);
